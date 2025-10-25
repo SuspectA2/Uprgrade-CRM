@@ -10,9 +10,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
-        primarySwatch: Colors.green,
-        scaffoldBackgroundColor: Colors.grey[200],
+        colorScheme: ColorScheme.fromSeed(
+            seedColor: Colors.blueAccent,
+            brightness: Brightness.light
+        ),
+        textTheme: TextTheme(
+          displayLarge: const TextStyle(
+            fontSize: 72,
+            fontWeight: FontWeight.bold,
+          )
+        ),
       ),
       home: HomePage(),
     );
@@ -24,6 +31,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text('Home Page'),
       ),
       body: Center(
