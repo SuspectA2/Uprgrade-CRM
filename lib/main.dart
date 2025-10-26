@@ -58,8 +58,8 @@ class HeroSection extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text(
-                'Upgrade Your Real Estate Experience',
+              Text(
+                'UPgrade — новый уровень вашего опыта в недвижимости',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,
@@ -69,7 +69,7 @@ class HeroSection extends StatelessWidget {
               ),
               const SizedBox(height: 16),
               const Text(
-                'Smart solutions for buying, selling, and managing property.',
+                'Умные решения для покупки, продажи и управления недвижимостью.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white70,
@@ -88,7 +88,7 @@ class HeroSection extends StatelessWidget {
                     ),
                     child: const Row(
                       children: [
-                        Text('View Properties'),
+                        Text('О нас'),
                         SizedBox(width: 4),
                         Icon(Icons.arrow_forward, size: 16),
                       ],
