@@ -52,7 +52,7 @@ class WelcomeSection extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.all(24.0),
+          padding: const EdgeInsets.all(23.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
