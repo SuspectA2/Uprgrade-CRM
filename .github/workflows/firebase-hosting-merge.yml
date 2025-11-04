@@ -53,4 +53,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_UPGRADE_CRM }}'
           channelId: live
-          projectId: upgrade-crm
+          projectId: upgrade-c-r-m-ims7f5
